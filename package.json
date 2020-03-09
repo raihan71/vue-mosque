@@ -8,8 +8,15 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "firebase": "^7.10.0",
+    "jquery": "^3.4.1",
     "vue": "^2.6.11",
-    "vue-router": "^3.1.5"
+    "vue-carousel": "^0.18.0",
+    "vue-gallery": "^2.0.1",
+    "vue-router": "^3.1.5",
+    "vue-slick": "^1.1.15",
+    "vue-slick-carousel": "^1.0.2",
+    "vue-truncate-filter": "^1.1.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.0",
