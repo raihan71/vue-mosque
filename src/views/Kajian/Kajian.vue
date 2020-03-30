@@ -46,7 +46,7 @@ export default {
           time: doc.data().time,
           lecturer: doc.data().lecturer,
           date: doc.data().date,
-          desc: doc.data().desc
+          desc: doc.data().desc.replace(/<[^>]+>/g,'')
         });
       })
     })

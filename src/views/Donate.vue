@@ -24,7 +24,7 @@
                   <span class="text-secondary">Jadi mau bangun rumah di surga engga? </span>
                   <span class="text-dark">Yuk mari berdonasi melalui rekening dibawah</span>
                 </h5>
-                <div class="card text-white bg-success mb-3">
+                <div class="card text-white bg-info mb-3">
                   <div class="card-body text-justify">
                     BANK : {{donasi.bank}}<br />
                     NOREK : {{donasi.norek}}<br />

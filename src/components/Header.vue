@@ -76,7 +76,7 @@ export default {
 
 <style>
   a.router-link-exact-active{
-    color: #eb5d1e;
+    color: #1cc88a;
     text-decoration: none;
   }
 </style>

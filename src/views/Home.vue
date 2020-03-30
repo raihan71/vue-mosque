@@ -9,7 +9,7 @@
 
         <div class="row justify-content-between">
           <div class="col-lg-5 d-flex align-items-center justify-content-center" data-aos="fade-up">
-            <carousel :autoplay="true" :perPage=1>
+            <carousel :autoplay="true" :scrollPerPage="true" :perPage=1>
               <slide v-for="img in images.slice(0, 3)" :key="img.key">
                 <img :src="img.url" width="400" height="250">
               </slide>

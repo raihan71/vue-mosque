@@ -39,7 +39,7 @@ export default {
         this.newses.push({
           key: doc.id,
           title: doc.data().title,
-          desc: doc.data().desc
+          desc: doc.data().desc.replace(/<[^>]+>/g,'')
         })
       })
     })
