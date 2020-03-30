@@ -7,7 +7,7 @@ cache:
 
 stages:
   - setup
-  - test
+  # - test
   - build
   - deploy
 
@@ -18,12 +18,12 @@ setup:
   only:
     - master
 
-test:
-  stage: test
-  script:
-    - npm run test:unit
-  only:
-    - master
+# test:
+#   stage: test
+#   script:
+#     - npm run test:unit
+#   only:
+#     - master
 
 build:
   stage: build
