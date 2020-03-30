@@ -1,0 +1,46 @@
+image: node:10.15.3
+
+cache:
+  untracked: true
+  paths:
+    - node_modules/
+
+stages:
+  - setup
+  - test
+  - build
+  - deploy
+
+setup:
+  stage: setup
+  script:
+    - npm ci
+  only:
+    - master
+
+test:
+  stage: test
+  script:
+    - npm run test:unit
+  only:
+    - master
+
+build:
+  stage: build
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - dist
+  only:
+    - master
+
+deploy:
+  stage: deploy
+  script:
+    - npm i -g netlify-cli
+    - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod
+  dependencies:
+    - build
+  only:
+    - master
