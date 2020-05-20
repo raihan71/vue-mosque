@@ -23,4 +23,5 @@ export default [
     icon: 'bx-cycling',
     desc: 'Parkir area yang luas dan nyaman untuk jamaah masjid.',
   }
-]
+];
+// you can change or add facility of your fav mosque
