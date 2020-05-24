@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to vue-mosque 👋</h1>
+<h1 align="center">Welcome to VueMosque 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://raihan71.gitbook.io/vuemosque/" target="_blank">
