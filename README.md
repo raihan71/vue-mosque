@@ -14,7 +14,10 @@
 > VueMosque is an open-source web profile for helping mosques have their own site. Built on using Vue.js and Firebase, you can use it freely to help your favorite mosques to be known by a lot of people.
 
 > Its content managed using cms VueMosqueAdmin, find out more details <a href="https://github.com/raihan71/vue-mosque-admin" target="_blank">here<a>.
-
+  
+### VueMosqueAdmin
+<p>Content Management System/Admin for VueMosque. Click <a href="https://github.com/raihan71/vue-mosque-admin">here</a> for more.</p>
+  
 ### ✨ [Demo](https://masjid-alanhar.netlify.com/)
 
 ## Install
