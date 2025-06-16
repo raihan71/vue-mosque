@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "firebase": "^7.10.0",
+    "firebase": "^7.14.0",
     "jquery": "^3.4.1",
     "vue": "^2.6.11",
     "vue-carousel": "^0.18.0",
